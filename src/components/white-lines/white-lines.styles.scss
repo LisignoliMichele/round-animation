@@ -1,0 +1,66 @@
+.white-lines{
+   opacity: 0;
+   animation-name: openingLines;
+   animation-duration: 4s;
+   animation-timing-function: linear;
+   @keyframes openingLines{
+      0%{
+         opacity: 0;
+      }
+      25%{
+         opacity: 0
+      }
+      26%{
+         opacity: 1;
+      }
+      90%{
+         opacity: 1;
+      }
+      100%{
+         opacity: 0;
+      }
+   }
+   .vertical{
+      width: 1px;
+      height: 100vh;
+      top: calc(-300% - 60px);
+      left: 50%;
+      background-color: #fff;
+      position: absolute;
+      animation-name: verticalLine;
+      animation-delay: 1s;
+      animation-duration: 2s;
+      animation-timing-function: linear;
+   }
+   @keyframes verticalLine {
+      0%{
+         height: 0vh;
+      }
+      50%{
+         height: 0vh;
+      }
+      100%{
+         height: 100vh;
+      }
+   }
+   .horizontal{
+      height: 1px;
+      width: 100vw;
+      top: 50%;
+      left: calc(-100% - 40px);
+      background-color: #fff;
+      position: absolute;
+      animation-name: horizontalLine;
+      animation-delay: 1s;
+      animation-duration: 1s;
+      animation-timing-function: linear;
+   }
+   @keyframes horizontalLine {
+      0%{
+         width: 0vw;
+      }
+      100%{
+         width: 100vw;
+      }
+   }
+}
