@@ -3,20 +3,17 @@
    width: 100%;
    opacity: 0;
    animation-name: FullDotVisibility;
-   animation-delay: 3s;
-   animation-duration: 2s;
+   animation-delay: 2s;
+   animation-duration: 1.5s;
 }
 @keyframes FullDotVisibility {
    0%{
       opacity: 0;
    }
-   50%{
+   40%{
       opacity: 1;
    }
-   90%{
-      opacity: 1;
-   }
-   0%{
+   100%{
       opacity: 0;
    }
 }

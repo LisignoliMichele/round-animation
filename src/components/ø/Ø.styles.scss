@@ -1,0 +1,30 @@
+.ø{
+   width: 18.2%;
+   position: absolute;
+   top: 5%;
+   left: 20.8%;
+   height: 100%;
+   .container{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      .mainø{
+         position: absolute;
+         opacity: 0;
+         animation-name: firstO;
+         animation-delay: 5.5s;
+         animation-duration: 1.5s;
+         @keyframes firstO {
+            10%{
+               opacity: 1;
+            }
+            60%{
+               opacity: 1;
+            }
+            100%{
+               opacity: 0;
+            }
+         }
+      }
+   }
+}

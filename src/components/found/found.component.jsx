@@ -2,11 +2,11 @@ import React from "react";
 
 import './found.styles.scss';
 
-import { ReactComponent as FoundSvg } from '../../assets/found.svg'
+import FoundSvg from '../../assets/found.svg'
 
 const Found = () => (
    <div className="found">
-      <FoundSvg />
+      <img src={FoundSvg} alt="FoundSvg"/>
    </div>
 );
 

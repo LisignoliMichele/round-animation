@@ -1,19 +1,16 @@
 .white-lines{
    opacity: 0;
-   animation-name: openingLines;
-   animation-duration: 4s;
+   animation-name: whiteLines;
+   animation-duration: 3s;
    animation-timing-function: linear;
-   @keyframes openingLines{
-      0%{
+   @keyframes whiteLines{
+      35%{
          opacity: 0;
       }
-      25%{
-         opacity: 0
-      }
-      26%{
+      36%{
          opacity: 1;
       }
-      90%{
+      70%{
          opacity: 1;
       }
       100%{
@@ -29,7 +26,7 @@
       position: absolute;
       animation-name: verticalLine;
       animation-delay: 1s;
-      animation-duration: 2s;
+      animation-duration: 1s;
       animation-timing-function: linear;
    }
    @keyframes verticalLine {
@@ -52,7 +49,7 @@
       position: absolute;
       animation-name: horizontalLine;
       animation-delay: 1s;
-      animation-duration: 1s;
+      animation-duration: 0.5s;
       animation-timing-function: linear;
    }
    @keyframes horizontalLine {

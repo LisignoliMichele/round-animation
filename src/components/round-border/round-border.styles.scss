@@ -1,4 +1,22 @@
 .round-border{
    width: 100%;
    position: absolute;
+   opacity: 0;
+   animation-name: displayroundBorder;
+   animation-delay: 4.5s;
+   animation-duration: 2s;
+   @keyframes displayroundBorder {
+      0%{
+         opacity: 0;
+      }
+      50%{
+         opacity: 1;
+      }
+      90%{
+         opacity: 1;
+      }
+      100%{
+         opacity: 0;
+      }
+   }
 }

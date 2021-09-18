@@ -1,11 +1,11 @@
 import React from 'react';
 
 import './round-border.styles.scss';
-import { ReactComponent as RoundBorderSVG } from '../../assets/white_border.svg'
+import RoundBorderSVG from '../../assets/white_border.svg'
 
 const RoundBorder = () => (
    <div className="round-border">
-      <RoundBorderSVG />
+      <img src={RoundBorderSVG} alt="RoundBorderSVG" />
    </div>
 )
 

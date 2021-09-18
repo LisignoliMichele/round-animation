@@ -1,0 +1,44 @@
+.colors{
+      opacity: 0;
+      animation-name: colorsdisplay;
+      animation-delay: 6s;
+      animation-duration: 6s;
+   img{
+      width: 4000%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+   }
+   @keyframes colorsdisplay {
+      10%{
+         opacity: 1;
+      }
+      95%{
+         opacity: 1;
+      }
+      100%{
+         opacity: 0;
+      }
+   }
+   .colorssvg{
+      opacity: 0;
+      animation-name: colors;
+      animation-delay: 6s;
+      animation-duration: 5s;
+      @keyframes colors {
+         20%{
+            opacity: 0;
+         }
+         50%{
+          opacity: 1;
+          width: 4000%;
+         }
+         100%{
+            opacity: 1;
+            width: 10%;
+            filter: blur(30px);
+         }
+      }
+   }
+}

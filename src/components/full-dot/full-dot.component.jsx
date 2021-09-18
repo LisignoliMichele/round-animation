@@ -1,12 +1,12 @@
 import React from "react";
 
-import { ReactComponent as FullDotSVG } from "../../assets/full-dot.svg";
+import FullDotSVG from "../../assets/full-dot.svg";
 
 import './full-dot.styles.scss'
 
 const FullDot = () => (
  <div className="full-dot">
-   <FullDotSVG />
+  <img src={FullDotSVG} alt="FullDotSVG" />
  </div>
 )
 

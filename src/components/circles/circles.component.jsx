@@ -1,17 +1,18 @@
 import React from "react";
+
 import './circles.styels.scss';
 
-import { ReactComponent as Circle } from '../../assets/circle.svg'
+import Circle from '../../assets/circle.svg'
 
 
 const Circles = () => (
    <div className="circles">
       <div className="elements">
-       <div><Circle /></div>
-       <div><Circle /></div>
-       <div><Circle /></div>
-       <div><Circle /></div>
-       <div><Circle /></div>
+         <div><img src={Circle} alt="Circle"/></div>
+         <div><img src={Circle} alt="Circle"/></div>
+         <div><img src={Circle} alt="Circle"/></div>
+         <div><img src={Circle} alt="Circle"/></div>
+         <div><img src={Circle} alt="Circle"/></div>
       </div>
    </div>
 )
