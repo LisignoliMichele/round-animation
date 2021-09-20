@@ -1,23 +1,23 @@
 .rgb-lines{
    opacity: 0;
    animation-name: openingLines;
-   animation-duration: 10s;
+   animation-duration: 5s;
    animation-delay: 5s;
    animation-timing-function: linear;
    @keyframes openingLines{
       0%{
          opacity: 1;
       }
-      90%{
+      80%{
          opacity: 1;
       }
-      100%{
+      90%{
          opacity: 0;
       }
    }
    .redline{
       width: 100vw;
-      height: 2px;
+      height: 3px;
       top: 68%;
       left: calc(-100% - 40px);
       background-color: rgb(227, 6, 19);
@@ -43,7 +43,7 @@
       position: absolute;
       .line{
          position: absolute;
-         height: 2px;
+         height: 3px;
          width: 100%;
          background-color: rgb(82, 174, 50);
          animation-name: greenline;
@@ -72,7 +72,7 @@
       position: absolute;
       .line{
          position: absolute;
-         height: 2px;
+         height: 3px;
          width: 100%;
          background-color: rgb(22, 159, 219);
          animation-name: blueline;

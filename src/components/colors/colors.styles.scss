@@ -1,8 +1,8 @@
 .colors{
       opacity: 0;
       animation-name: colorsdisplay;
-      animation-delay: 6s;
-      animation-duration: 6s;
+      animation-delay: 6.5s;
+      animation-duration: 3.2s;
    img{
       width: 4000%;
       position: absolute;
@@ -11,10 +11,10 @@
       left: 50%;
    }
    @keyframes colorsdisplay {
-      10%{
+      0%{
          opacity: 1;
       }
-      95%{
+      70%{
          opacity: 1;
       }
       100%{
@@ -24,10 +24,11 @@
    .colorssvg{
       opacity: 0;
       animation-name: colors;
-      animation-delay: 6s;
-      animation-duration: 5s;
+      animation-delay: 6.5s;
+      animation-duration: 2.5s;
       @keyframes colors {
          20%{
+            filter: blur(400px);
             opacity: 0;
          }
          50%{

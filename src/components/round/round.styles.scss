@@ -1,5 +1,9 @@
 .round{
    grid-row: 4;
    grid-column: 2;
-   position: relative
+   position: relative;
+   @media screen and (max-width:767px){
+      grid-row: 4;
+      grid-column: 1;
+   }
 }

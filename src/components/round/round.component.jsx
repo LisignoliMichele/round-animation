@@ -7,8 +7,8 @@ import RoundBorder from "../round-border/round-border.component";
 import RoUnd from "../r-und-white/r-und-white.component";
 import Ø from "../ø/Ø.component";
 import RGBlines from "../rgb-lines/rgb-lines.component";
-import WhiteO from "../whiteø/whiteø.component";
-
+import FullRoUndNoBorder from "../full-round-noBorder/full-round-noBorder.component";
+import FullRound from "../full-round/full-round.component";
 
 import './round.styles.scss'
 
@@ -20,11 +20,10 @@ const Round = () => (
     <Circles />
     <RoundBorder />
     <Ø />
+    <FullRound />
+    <FullRoUndNoBorder />
     <RoUnd />
-    
-    {/* <WhiteO />   */}
     <RGBlines />
-    
  </div>
 );
 

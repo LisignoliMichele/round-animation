@@ -12,13 +12,18 @@
          position: absolute;
          opacity: 0;
          animation-name: firstO;
-         animation-delay: 5.5s;
-         animation-duration: 1.5s;
+         animation-delay: 4.5s;
+         animation-duration: 2.2s;
          @keyframes firstO {
+            0%{
+               opacity: 0;
+               filter: blur(10px);
+            }
             10%{
                opacity: 1;
+               filter: blur(0);
             }
-            60%{
+            90%{
                opacity: 1;
             }
             100%{

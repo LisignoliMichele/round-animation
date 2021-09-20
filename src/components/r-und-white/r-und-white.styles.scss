@@ -3,13 +3,15 @@
    position: absolute;
    width: 100%;
    animation-name: displaywhitheR_und;
-   animation-duration: 10s;
-   animation-delay: 5.5s;
+   animation-duration: 5s;
+   animation-delay: 4.5s;
    @keyframes displaywhitheR_und {
       0%{
+         filter: blur(10px);
          opacity: 0;
       }
       5%{
+         filter: blur(0);
          opacity: 1
       }
       99%{

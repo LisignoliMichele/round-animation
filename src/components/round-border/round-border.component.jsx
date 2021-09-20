@@ -5,7 +5,9 @@ import RoundBorderSVG from '../../assets/white_border.svg'
 
 const RoundBorder = () => (
    <div className="round-border">
-      <img src={RoundBorderSVG} alt="RoundBorderSVG" />
+      <div className="content">
+         <img src={RoundBorderSVG} alt="RoundBorderSVG" />
+       </div>
    </div>
 )
 
