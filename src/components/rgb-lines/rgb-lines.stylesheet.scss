@@ -1,7 +1,7 @@
 .rgb-lines{
    opacity: 0;
    animation-name: openingLines;
-   animation-duration: 5s;
+   animation-duration: 4.5s;
    animation-delay: 5s;
    animation-timing-function: linear;
    @keyframes openingLines{
@@ -26,6 +26,9 @@
       animation-delay: 5s;
       animation-duration: 0.5s;
       animation-timing-function: linear;
+      @media screen and (max-width:768px){
+         left: -20px;
+      }
    }
    @keyframes redLine {
       0%{

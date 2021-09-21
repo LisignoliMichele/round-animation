@@ -4,13 +4,13 @@
    top: calc(-100% - 10px);
    opacity: 0;
    animation-name: showfullfound;
-   animation-delay: 13.5s;
-   animation-duration: 2s;
+   animation-delay: 14s;
+   animation-duration: 1.5s;
    @keyframes showfullfound {
       20%{
          opacity: 1;
       }
-      80%{
+      70%{
          opacity: 1;
       }
       100%{
@@ -24,14 +24,14 @@
    top: calc(100% + 10px);
    opacity: 0;
    animation-name: shownow;
-   animation-delay: 14s;
-   animation-duration: 1.5s;
+   animation-delay: 14.5s;
+   animation-duration: 1s;
    @keyframes shownow {
       
       10%{
          opacity: 1;
       }
-      80%{
+      70%{
          opacity: 1;
       }
       100%{

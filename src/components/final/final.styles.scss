@@ -22,7 +22,7 @@
    top: 0;
    width: 100%;
    animation-name: hideWIP;
-   animation-duration: 16s;
+   animation-duration: 16.5s;
    @keyframes hideWIP {
       0%{
          opacity: 0;
@@ -37,11 +37,13 @@
 }
 
 .contacts{
+   z-index: 20;
+   cursor: pointer;
    position: absolute;
    width: 100%;
    top: calc(100% + 10px);
    animation-name: hidecontacts;
-   animation-duration: 16s;
+   animation-duration: 16.5s;
    @keyframes hidecontacts {
       0%{
          opacity: 0;
@@ -52,5 +54,17 @@
       100%{
          opacity: 1;
       }
+   }
+   .contactslinks{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      position: absolute;
+      top: 0;
+      a{
+         height: 100%;
+         width: 50%;
+      }
+      
    }
 }

@@ -10,7 +10,15 @@ const Final = () => (
    <div>
       <img className="ø-final" src={Øfinal} alt="Øfinal"/>
       <img className="work-in-progress" src={WorkInProgress} alt="WorkInProgress"/>
-      <img className="contacts" src={Contacts} alt="Contacts"/>
+      <div className="contacts">
+         <img  src={Contacts} alt="Contacts"/>
+         <div className="contactslinks">
+            <a className="phone" href="tel:+41(0)919951122"><div/></a>
+            <a className="email" href="mailto:info@round-sgi.com"><div/></a> 
+         </div>
+      </div>
+      
+      
    </div>
 );
 

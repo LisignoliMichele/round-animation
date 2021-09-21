@@ -21,19 +21,35 @@
          opacity: 0;
       }
    }
+   .masksvg{
+      opacity: 0;
+      animation-name: mask;
+      animation-delay: 6.5s;
+      animation-duration: 3.2s;
+      @keyframes mask {
+         0%{
+            opacity: 1;
+         }
+         55%{
+          opacity: 1;
+         }
+         100%{
+            opacity: 0;
+         }
+      }
+   }
    .colorssvg{
       opacity: 0;
       animation-name: colors;
       animation-delay: 6.5s;
       animation-duration: 2.5s;
       @keyframes colors {
-         20%{
-            filter: blur(400px);
+         10%{
             opacity: 0;
+            filter: blur(300px);
          }
          50%{
-          opacity: 1;
-          width: 4000%;
+            opacity: 1;
          }
          100%{
             opacity: 1;

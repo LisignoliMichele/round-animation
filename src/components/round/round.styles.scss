@@ -2,8 +2,20 @@
    grid-row: 4;
    grid-column: 2;
    position: relative;
-   @media screen and (max-width:767px){
+   @media screen and (max-width:768px){
       grid-row: 4;
       grid-column: 1;
    }
+   .placeholder{
+      visibility: hidden;
+   }
+   .glass{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 10;
+   }
 }
+

@@ -9,21 +9,26 @@ import Ø from "../ø/Ø.component";
 import RGBlines from "../rgb-lines/rgb-lines.component";
 import FullRoUndNoBorder from "../full-round-noBorder/full-round-noBorder.component";
 import FullRound from "../full-round/full-round.component";
+import Placeholder from "../../assets/found.svg"
+import Final from "../final/final.component";
 
 import './round.styles.scss'
 
 
 const Round = () => (
  <div className="round">
-    <FullDot />
-    <WhiteLines />
-    <Circles />
-    <RoundBorder />
-    <Ø />
-    <FullRound />
-    <FullRoUndNoBorder />
-    <RoUnd />
-    <RGBlines />
+ <img className="placeholder" src={Placeholder} alt="Placeholder" />
+   <FullDot />
+   <WhiteLines />
+   <Circles />
+   <RoundBorder />
+   <Ø />
+   <FullRound />
+   <FullRoUndNoBorder />
+   <RoUnd />
+   <RGBlines />
+   <div className="glass" />
+   <Final />
  </div>
 );
 

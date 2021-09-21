@@ -1,5 +1,6 @@
 .fullRound-withBorder{
    position: absolute;
+   top: 0;
    width: 100%;
    .content{
       position: relative;
@@ -26,7 +27,7 @@
          z-index: -1;
          width: 100%;
          animation-name: fullborderRound;
-         animation-duration: 7s;
+         animation-duration: 6.8s;
          animation-delay: 9s;
          opacity: 0;
          
@@ -34,7 +35,7 @@
             10%{
                opacity: 1;
             }
-            85%{
+            90%{
                opacity: 1;
             }
             100%{
@@ -49,13 +50,13 @@
          top: 0px;
          right: -1%;
          animation-name: displaytm;
-         animation-duration: 5s;
+         animation-duration: 5.3s;
          animation-delay: 10.5s;
          @keyframes displaytm {
             10%{
                opacity: 1
             }
-            80%{
+            90%{
                opacity: 1;
             }
             100%{
