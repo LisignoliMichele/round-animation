@@ -1,7 +1,7 @@
 .colors{
       opacity: 0;
       animation-name: colorsdisplay;
-      animation-delay: 6.5s;
+      animation-delay: 4s;
       animation-duration: 3.2s;
    img{
       width: 4000%;
@@ -24,8 +24,8 @@
    .masksvg{
       opacity: 0;
       animation-name: mask;
-      animation-delay: 6.5s;
-      animation-duration: 3.2s;
+      animation-delay: 4s;
+      animation-duration: 2.5s;
       @keyframes mask {
          0%{
             opacity: 1;
@@ -41,7 +41,7 @@
    .colorssvg{
       opacity: 0;
       animation-name: colors;
-      animation-delay: 6.5s;
+      animation-delay: 4s;
       animation-duration: 2.5s;
       @keyframes colors {
          10%{

@@ -1,10 +1,10 @@
 .foundFull{
    width: 100%;
    position: absolute;
-   top: calc(-100% - 10px);
+   top: calc(-100%);
    opacity: 0;
    animation-name: showfullfound;
-   animation-delay: 14s;
+   animation-delay: 10.5s;
    animation-duration: 1.5s;
    @keyframes showfullfound {
       20%{
@@ -21,10 +21,10 @@
 .now{
    width: 100%;
    position: absolute;
-   top: calc(100% + 10px);
+   top: calc(100%);
    opacity: 0;
    animation-name: shownow;
-   animation-delay: 14.5s;
+   animation-delay: 11s;
    animation-duration: 1s;
    @keyframes shownow {
       

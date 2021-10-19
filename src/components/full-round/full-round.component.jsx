@@ -2,7 +2,7 @@ import React from "react";
 
 import './full-round.styles.scss';
 
-import Tm from '../../assets/tm.svg'
+import Tm from '../../assets/tm.png'
 import FullRoundSvg from '../../assets/roundfull.svg'
 import FoundNow from "../found-now/found-now.component";
 

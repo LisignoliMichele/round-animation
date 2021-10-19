@@ -3,7 +3,7 @@
    top: 0;
    width: 100%;
    animation-name: hideFInalO;
-   animation-duration: 15s;
+   animation-duration: 12s;
    @keyframes hideFInalO {
       0%{
          opacity: 0;
@@ -22,7 +22,7 @@
    top: 0;
    width: 100%;
    animation-name: hideWIP;
-   animation-duration: 16.5s;
+   animation-duration: 12.5s;
    @keyframes hideWIP {
       0%{
          opacity: 0;
@@ -43,7 +43,7 @@
    width: 100%;
    top: calc(100% + 10px);
    animation-name: hidecontacts;
-   animation-duration: 16.5s;
+   animation-duration: 12.5s;
    @keyframes hidecontacts {
       0%{
          opacity: 0;

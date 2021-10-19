@@ -1,18 +1,18 @@
 .rgb-lines{
    .redline{
       width: 0vw;
-      height: 3px;
-      top: 68%;
+      height: 2px;
+      top: 68.2%;
       opacity: 0;
       left: calc(-100% - 40px);
       background-color: rgb(227, 6, 19);
       position: absolute;
       animation-name: redLine;
-      animation-delay: 5s;
-      animation-duration: 4.5s;
+      animation-delay: 2.5s;
+      animation-duration: 3.5s;
       animation-timing-function: linear;
       @media screen and (max-width:768px){
-         left: -20px;
+         left: -10px;
       }
    }
    @keyframes redLine {
@@ -31,18 +31,18 @@
       width: 180vh;
       top: 50%;
       transform: translatex(-50%) rotate(120deg);
-      left: 26%;    
+      left: 26.2%;    
       position: absolute;
       .line{
          position: absolute;
-         height: 3px;
+         height: 2px;
          width: 0%;
          opacity: 0;
          background-color: rgb(82, 174, 50);
          animation-name: greenline;
          animation-timing-function: linear;
-         animation-delay: 5s;
-         animation-duration: 4.5s;
+         animation-delay: 2.5s;
+         animation-duration: 3.5s;
          @keyframes greenline {
             10%{
                width: 0%;
@@ -65,18 +65,18 @@
       width: 180vh;
       top: 50%;
       transform: translatex(-50%) rotate(60deg);
-      left: 34.2%;    
+      left: 34%;    
       position: absolute;
       .line{
          position: absolute;
          opacity: 0;
-         height: 3px;
+         height: 2px;
          width: 0%;
          background-color: rgb(22, 159, 219);
          animation-name: blueline;
          animation-timing-function: linear;
-         animation-delay: 5s;
-         animation-duration: 4.5s;
+         animation-delay: 2.5s;
+         animation-duration: 3.5s;
          @keyframes blueline {
             20%{
                width: 0%;
